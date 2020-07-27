@@ -1,0 +1,4 @@
+com\baidu\fsg\uid\UidGeneratorApiApplication.class
+com\baidu\fsg\uid\service\impl\UidServiceImpl.class
+com\baidu\fsg\uid\service\UidService.class
+com\baidu\fsg\uid\controller\UidController.class
