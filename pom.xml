@@ -30,7 +30,6 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <commons-lang.version>2.6</commons-lang.version>
         <javax.xml.bind.version>2.3.0</javax.xml.bind.version>
-        <config-client.version>1.0.4</config-client.version>
     </properties>
 
     <dependencyManagement>
@@ -113,12 +112,6 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
-            </dependency>
-            <!--配置中心 -->
-            <dependency>
-                <groupId>com.changhong.cloud.cosmos</groupId>
-                <artifactId>cosmos-config-client</artifactId>
-                <version>${config-client.version}</version>
             </dependency>
             <!--解决jdk升级到11后的编译问题,jdk8则不需要添加如下包 -->
             <dependency>
