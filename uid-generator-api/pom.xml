@@ -31,10 +31,6 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.changhong.cloud.cosmos</groupId>
-			<artifactId>cosmos-config-client</artifactId>
-		</dependency>
 	</dependencies>
 
 	<build>
